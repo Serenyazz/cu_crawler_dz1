@@ -168,4 +168,5 @@ def update_registry():
         print("\nНовых записей для внесения не обнаружено.")
 
 if __name__ == '__main__':
-    update_registry()
+    update_registry() 
+    
