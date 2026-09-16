@@ -1,12 +1,90 @@
-/.DS_Store
-/.venv
-/.vscode
-/Data_analysis
-/avito
+# ==========================================
+# 1. Системные и служебные файлы ОС / IDE
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+
+# ==========================================
+# 2. Окружение Python и артефакты выполнения
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+
+# ==========================================
+# 3. Ноутбуки Jupyter и контрольные точки
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*-checkpoint.ipynb
+proj.ipynb
+
+
+# ==========================================
+# 4. Файлы данных, дампы и архивы
+# ==========================================
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+data/
+/data/
+/downloads/
+player_save.txt
 /git task 1.zip
-/interviews
-/matplotlib
-/player_save.txt
-/proj.ipynb
-/python_pandas_tools
-/trainalgo
+
+# Временные файлы блокировки Excel (создаются при открытии файлов в MS Excel)
+~$*.xls
+~$*.xlsx
+
+
+# ==========================================
+# 6. Личные проекты, черновики и учебные папки
+# ==========================================
+/Data_analysis/
+/avito/
+/interviews/
+/matplotlib/
+/python_pandas_tools/
+/trainalgo/
+/ranobelib-downloader-main/
